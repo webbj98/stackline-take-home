@@ -1,0 +1,11 @@
+th {
+  font-weight: normal;
+  font-size: small;
+}
+
+
+@media (max-width: 500px) {
+  table :not(caption) > * > * {
+    padding: 0.1rem 0.1rem !important;
+  }
+}

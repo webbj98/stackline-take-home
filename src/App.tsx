@@ -1,24 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import Table from './components/table/Table';
+import ItemInfo from './components/item-info/ItemInfo';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <Header />
+      <div className='row py-2'  >
+        <div 
+          className='col main-section item-section'
+        
         >
-          Learn React
-        </a>
-      </header>
+          <ItemInfo />
+
+        </div>
+        <div className='col main-section'>
+          <Table />
+
+        </div>
+        
+        
+
+      </div>
+      
     </div>
   );
 }

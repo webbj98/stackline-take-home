@@ -1,0 +1,10 @@
+#header {
+    background-color: #052849;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#header img {
+    max-width: 20%;
+}

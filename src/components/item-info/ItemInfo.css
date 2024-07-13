@@ -1,0 +1,13 @@
+.tag-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+img {
+    max-width: 70%;
+}
+
+.subtitle {
+    color: #c5cbd6;
+}
